@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Filament\Resources\StudyPrograms\Schemas;
+
+use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Schema;
+
+class StudyProgramForm
+{
+    public static function configure(Schema $schema): Schema
+    {
+        return $schema
+            ->components([
+                \Filament\Forms\Components\Select::make('department_id')->relationship('department', 'name')->label('Fakultas / Divisi')->searchable()->preload()
+                    ->required(),
+                TextInput::make('code'),
+                TextInput::make('name')
+                    ->required(),
+                TextInput::make('level'),
+            ]);
+    }
+}
