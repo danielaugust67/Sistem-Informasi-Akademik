@@ -90,6 +90,3 @@ Gunakan akun Dummy di bawah ini dengan **Password Seragam: `password`**.
 | **Tata Usaha** | `tu@sman1.sch.id` | Admin Manajemen Keuangan SPP, Tagihan Siswa, dan Data Profil Inti. |
 | **Siswa / Pelajar** | `siswa@sman1.sch.id` | Tampilan Paling Terbatas: Hanya melihat Jadwal Kelasnya sendiri, Kehadiran, Nilai Rapor, dan Tagihan (Tanpa Widget). |
 
----
-
-Dibuat untuk mempermudah digitalisasi dunia pendidikan dalam sebuah administrasi yang *modern* dan terpusat ✨
